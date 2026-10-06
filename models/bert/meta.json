@@ -1,0 +1,13 @@
+{
+  "base_model": "bert-base-uncased",
+  "name": "bert",
+  "max_len": 128,
+  "dropout": 0.3,
+  "test_metrics": {
+    "accuracy": 0.965,
+    "precision": 1.0,
+    "recall": 0.9230769230769231,
+    "f1": 0.96
+  },
+  "train_size": 1600
+}

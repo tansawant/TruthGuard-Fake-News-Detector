@@ -1,0 +1,38 @@
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Large Datasets (> 100MB exceeds GitHub limits)
+# Use data/sample_news.csv for immediate testing, or run download scripts
+data/news_clean.csv
+data/*.zip
+data/*.tar.gz
+
+# Heavy Transformer Weights (> 100MB exceeds GitHub limits)
+# Run `python -m src.train --model bert` to train locally
+models/bert/model.pt
+
+# Debug & Temporary artifacts
+.chrome_debug*/
+*.png
+!docs/screenshots/*.png
+!assets/*.png
+*.html
+!templates/*.html
+debug/
+temp/
+logs/
+*.log
+
+# Operating System
+.DS_Store
+Thumbs.db

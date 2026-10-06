@@ -1,0 +1,50 @@
+{
+  "model": "tfidf_logreg",
+  "accuracy": 0.984993531694696,
+  "precision": 0.9901277584204413,
+  "recall": 0.9765177548682703,
+  "f1": 0.9832756632064591,
+  "f1_macro": 0.9848335143812681,
+  "confusion_matrix": [
+    [
+      1705,
+      41
+    ],
+    [
+      17,
+      2102
+    ]
+  ],
+  "report": {
+    "FAKE": {
+      "precision": 0.9901277584204413,
+      "recall": 0.9765177548682703,
+      "f1-score": 0.9832756632064591,
+      "support": 1746.0
+    },
+    "REAL": {
+      "precision": 0.9808679421371909,
+      "recall": 0.9919773478055687,
+      "f1-score": 0.986391365556077,
+      "support": 2119.0
+    },
+    "accuracy": 0.984993531694696,
+    "macro avg": {
+      "precision": 0.9854978502788161,
+      "recall": 0.9842475513369195,
+      "f1-score": 0.9848335143812681,
+      "support": 3865.0
+    },
+    "weighted avg": {
+      "precision": 0.9850510312007239,
+      "recall": 0.984993531694696,
+      "f1-score": 0.9849838581039598,
+      "support": 3865.0
+    }
+  },
+  "n_test": 3865,
+  "roc_auc": 0.9981474544120802,
+  "base_model": "TF-IDF (1-2 gram) + Logistic Regression",
+  "train_size": 30917,
+  "train_time_sec": 24.0
+}

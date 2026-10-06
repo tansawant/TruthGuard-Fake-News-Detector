@@ -1,0 +1,16 @@
+{
+  "name": "rnn",
+  "arch": "rnn",
+  "base_model": "PyTorch RNN",
+  "max_len": 128,
+  "sample": 3000,
+  "epochs": 3,
+  "train_size": 2400,
+  "test_metrics": {
+    "accuracy": 0.58,
+    "precision": 0.5352112676056338,
+    "recall": 0.5588235294117647,
+    "f1": 0.5467625899280576
+  },
+  "inference_ms": 0.17
+}
